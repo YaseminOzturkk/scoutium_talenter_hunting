@@ -1,5 +1,6 @@
 # Talent Scouting Classification with Machine Learning
-![Uploading daniel-norin-lBhhnhndpE0-unsplash.jpg…]()
+![istockphoto-500240235-612x612](https://github.com/YaseminOzturkk/scoutium_talenter_hunting/assets/48058898/1c907749-4e79-4f60-92be-1375b8270351)
+
 
 This GitHub repository contains a machine learning model developed to classify talent scouting based on player attributes and ratings provided by scouts from the Scoutium football monitoring platform.
 
