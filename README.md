@@ -7,7 +7,7 @@ Predicting the classification (average, highlighted) of players based on ratings
 ## Dataset Story
 The dataset consists of information gathered from football players observed during matches by Scoutium. It includes evaluations by scouts on various player attributes along with the assigned ratings.
 
-###scoutium_attributes.csv Variables:
+*scoutium_attributes.csv Variables:
 *task_response_id: A set of evaluations by a scout for all players in a team's squad in a match.
 *match_id: The id of the relevant match.
 *evaluator_id: The id of the evaluator (scout).
@@ -26,7 +26,7 @@ The dataset consists of information gathered from football players observed duri
 *analysis_id: A set of feature evaluations by a scout for a player in a match.
 *attribute_id: The id of each feature evaluated for players.
 *attribute_value: The value (score) assigned by a scout to a player's specific feature.
-###scoutium_potential_labels.csv Variables:
+*scoutium_potential_labels.csv Variables:
 *task_response_id: A set of evaluations by a scout for all players in a team's squad in a match.
 *match_id: The id of the relevant match.
 *evaluator_id: The id of the evaluator (scout).
