@@ -26,7 +26,6 @@ The project includes various data preprocessing and feature engineering steps:
 * Creating a pivot table
 * Exploratory Data Analysis (EDA)
 ** EDA steps include:
-
 *** Overview of the dataset
 *** Analysis of categorical and numerical variables
 *** Correlation analysis
