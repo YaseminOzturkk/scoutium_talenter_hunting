@@ -7,6 +7,32 @@ Predicting the classification (average, highlighted) of players based on ratings
 ## Dataset Story
 The dataset consists of information gathered from football players observed during matches by Scoutium. It includes evaluations by scouts on various player attributes along with the assigned ratings.
 
+###scoutium_attributes.csv Variables:
+*task_response_id: A set of evaluations by a scout for all players in a team's squad in a match.
+*match_id: The id of the relevant match.
+*evaluator_id: The id of the evaluator (scout).
+*player_id: The id of the relevant player.
+*position_id: The id of the position played by the player in that match.
+1: Goalkeeper
+2: Center Back
+3: Right Back
+4: Left Back
+5: Defensive Midfielder
+6: Central Midfielder
+7: Right Wing
+8: Left Wing
+9: Attacking Midfielder
+10: Forward
+*analysis_id: A set of feature evaluations by a scout for a player in a match.
+*attribute_id: The id of each feature evaluated for players.
+*attribute_value: The value (score) assigned by a scout to a player's specific feature.
+###scoutium_potential_labels.csv Variables:
+*task_response_id: A set of evaluations by a scout for all players in a team's squad in a match.
+*match_id: The id of the relevant match.
+*evaluator_id: The id of the evaluator (scout).
+*player_id: The id of the relevant player.
+*potential_label: The label indicating the final decision of a scout for a player in a match (target variable).
+
 ## Requirements
 The Python libraries and models used in this project include:
 
