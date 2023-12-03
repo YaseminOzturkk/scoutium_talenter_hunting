@@ -22,17 +22,16 @@ The Python libraries and models used in this project include:
 ## Data Preprocessing and Feature Engineering
 The project includes various data preprocessing and feature engineering steps:
 
-* Merging the dataset
-* Creating a pivot table
-* Exploratory Data Analysis (EDA)
-** EDA steps include:
-*** Overview of the dataset
-*** Analysis of categorical and numerical variables
-*** Correlation analysis
-*** Investigating the relationship between the target variable and other features
-* Handling missing values and outliers
-* Label encoding for categorical variables
-* Scaling numerical variables
+- Merging the dataset
+- Creating a pivot table
+- Exploratory Data Analysis (EDA) steps include:
+  * Overview of the dataset
+  * Analysis of categorical and numerical variables
+  * Correlation analysis
+  * Investigating the relationship between the target variable and other features
+ - Handling missing values and outliers
+ - Label encoding for categorical variables
+ - Scaling numerical variables
 
 # Machine Learning Model
 A LightGBM (Gradient Boosting) model has been developed to predict the potential labels of players. The model's performance is evaluated using metrics such as ROC-AUC, F1 Score, Precision, Recall, and Accuracy.
