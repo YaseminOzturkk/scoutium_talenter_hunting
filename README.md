@@ -13,35 +13,35 @@ The dataset consists of information gathered from football players observed duri
 ## Requirements
 The Python libraries and models used in this project include:
 
-Pandas
-Seaborn
-Matplotlib
-Scikit-learn
-LightGBM
+* Pandas
+* Seaborn
+* Matplotlib
+* Scikit-learn
+* LightGBM
 
 ## Data Preprocessing and Feature Engineering
 The project includes various data preprocessing and feature engineering steps:
 
-*Merging the dataset
-*Creating a pivot table
-*Exploratory Data Analysis (EDA)
-**EDA steps include:
+* Merging the dataset
+* Creating a pivot table
+* Exploratory Data Analysis (EDA)
+** EDA steps include:
 
-***Overview of the dataset
-***Analysis of categorical and numerical variables
-***Correlation analysis
-***Investigating the relationship between the target variable and other features
-*Handling missing values and outliers
-*Label encoding for categorical variables
-*Scaling numerical variables
+*** Overview of the dataset
+*** Analysis of categorical and numerical variables
+*** Correlation analysis
+*** Investigating the relationship between the target variable and other features
+* Handling missing values and outliers
+* Label encoding for categorical variables
+* Scaling numerical variables
 
-#Machine Learning Model
+# Machine Learning Model
 A LightGBM (Gradient Boosting) model has been developed to predict the potential labels of players. The model's performance is evaluated using metrics such as ROC-AUC, F1 Score, Precision, Recall, and Accuracy.
 
-#Model Inspection and Important Variables
+# Model Inspection and Important Variables
 The project also includes functions to evaluate the model's performance and visualize important variables.
 
-#Usage
+# Usage
 You can clone this repository to your local machine or download it as a ZIP file to explore and continue development.
 
 Note: The dataset and file paths should be updated.
